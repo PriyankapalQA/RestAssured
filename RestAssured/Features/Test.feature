@@ -5,8 +5,8 @@ Feature: Title of your feature
   @tag1
   Scenario: TC1
     Given User is on Home Page
- #   When I complete action
- #   Then I validate the outcomes
+    When I complete action
+    Then I validate the outcomes
 #    Examples: 
 #      | name  | value | status  |
 #      | name1 |     5 | success |
