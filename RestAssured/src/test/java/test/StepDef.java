@@ -9,8 +9,9 @@ public class StepDef {
 	public void user_is_on_Home_Page() {
 		 given().contentType(ContentType.JSON)
 		 .when().get("http://www.google.com")
-		 .then().statusCode(200);
-		 
-	 }
-
+		 .then().statusCode(200);  
+		
+		
+	}
+	
 }
