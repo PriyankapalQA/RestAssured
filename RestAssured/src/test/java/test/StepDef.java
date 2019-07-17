@@ -1,7 +1,7 @@
 package test;
 import cucumber.api.java.en.Given;
 import io.restassured.http.ContentType;
-
+import static io.restassured.RestAssured.given;
 
 public class StepDef {
 	
